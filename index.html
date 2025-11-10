@@ -21,9 +21,20 @@
     <link rel="stylesheet" href="./g366-assets/css/styles.css" />
     <link rel="stylesheet" href="./g366-assets/css/external.css" />
 
+    <script src="./g366-assets/js/jquery.min.js"></script>
+    <script src="./g366-assets/js/jquery-migrate.min.js"></script>
+
 </head>
 
-<body class="header-style1">
+<body class="body-overflow header-style1">
+
+    <div class="full-screen-video">
+        <span class="loader"></span>
+        <video class="bannger-video" poster playsinline muted autoplay loop>
+            <source src="./g366-assets/videos/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <div class="main-wrapper">
         <div class="content">
@@ -199,9 +210,8 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="banner-video">
-                                            <video class="bannger-video" poster="" playsinline="" muted="" autoplay=""
-                                                loop="">
+                                        <div class="banner-video js_v_sc">
+                                            <video class="bannger-video" poster playsinline muted autoplay loop>
                                                 <source src="./g366-assets/videos/video.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                             </video>
@@ -756,8 +766,39 @@
 
 </body>
 
-<script src="./g366-assets/js/jquery.min.js"></script>
-<script src="./g366-assets/js/jquery-migrate.min.js"></script>
+<script>
+
+    history.scrollRestoration = 'manual';
+
+    $("html, body").animate({ scrollTop: 0 });
+
+    setTimeout(function () {
+        $('body').removeClass('body-overflow');
+        restVideo();
+    }, 5000);
+
+    window.addEventListener('resize', function () {
+        $('body').removeClass('body-overflow');
+        restVideo();
+    });
+
+    function restVideo() {
+
+        var v_width = $('.js_v_sc').width();
+        var v_height = $('.js_v_sc').height();
+        var v_top = $('.js_v_sc').offset().top;
+        var v_left = $('.js_v_sc').offset().left;
+
+        $('.full-screen-video').css({ width: v_width, height: v_height, top: v_top, left: v_left });
+
+        setTimeout(function () {
+            $('.full-screen-video').hide();
+        }, 1000)
+
+    }
+
+
+</script>
 
 <script src="./g366-assets/js/bootstrap.min.js"></script>
 <script src="./g366-assets/js/animated-headline.js"></script>
