@@ -19,6 +19,10 @@ body {
     overflow: hidden;
 }
 
+.visibility-hidden {
+    visibility: hidden;
+}
+
 body,
 html {
     -moz-osx-font-smoothing: grayscale

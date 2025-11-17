@@ -34,7 +34,7 @@
         boxClass: "wow",
         animateClass: "animated",
         offset: 0,
-        mobile: !1,
+        mobile: true,
         live: !0
     }).init(), e(".parallax,.bg-img").each(function(t) {
         e(this).attr("data-background") && e(this).css("background-image", "url(" + e(this).data("background") + ")")

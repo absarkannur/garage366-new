@@ -346,70 +346,6 @@
     flex-direction: row;
 }
 
-.awards-list .award-block {
-    /* flex-grow: 1; */
-    width: 350px;
-    margin-bottom: 100px;
-}
-
-.awards-list .award-block .award-img {
-    height: 250px;
-}
-
-.awards-list .award-block .award-img .imagethmb_inner {
-    height: 250px;
-}
-
-.awards-list .award-block .award-content {
-    clear: both;
-    text-align: left;
-}
-
-.awards-list .award-block .award-content h4.title {
-    font-size: 16px;
-    margin: 0;
-}
-
-.awards-list .award-block .award-content .sub-title {
-    display: block;
-    font-size: 14px;
-    color: #565A7A;
-    height: 40px;
-    line-height: 40px;
-}
-
-.awards-list .award-block .award-content .year {
-    background-color: #fff;
-    padding: 6px 20px;
-    border-radius: 20px;
-    color: #000;
-    font-size: 12px;
-    text-transform: capitalize;
-    font-weight: 900;
-}
-
-
-.awards-list .award-block .award-content .year.gold {
-    background-color: #D3AF37;
-}
-
-.awards-list .award-block .award-content .year.silver {
-    background-color: #C4C4C4;
-}
-
-.awards-list .award-block .award-content .year.bronze {
-    background-color: #CE8946;
-}
-
-.awards-list .award-block .seperate {
-    display: block;
-    width: 70%;
-    height: 2px;
-    border-radius: 30px;
-    background-color: #d1d1d1;
-    margin: 20px auto;
-}
-
 /* Clients */
 
 .clients-wrapper {
@@ -765,4 +701,183 @@ footer .footer-list .list.header {
     } */
 
 
+}
+
+.footer-form {
+    clear: both;
+    padding: 50px 0;
+    border-bottom: solid 1px #D3AF37;
+}
+
+.footer-form .wpcf7-form {
+    padding-top: 13px;
+}
+
+.footer-form .wpcf7-form input,
+.footer-form .wpcf7-form textarea {
+    border-color: #fded3d !important;
+}
+
+.awards-section-wrap {
+    background-color: #fff;
+    padding: 95px 0;
+    position: relative;
+}
+
+.awards-section-wrap .text-header {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.awards-section-wrap .aw-wrap {
+    position: relative;
+    background-color: #fff;
+    height: 450px;
+}
+
+.awards-section-wrap .awards {
+    position: absolute;
+    height: 450px;
+    white-space: nowrap;
+    top: 70px;
+}
+
+.awards-section-wrap .awards .aw-list {
+    width: 300px;
+    height: 450px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.award-block {
+    /* flex-grow: 1; */
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.award-block .award-img {
+    height: 250px;
+}
+
+.award-block .award-img .imagethmb_inner {
+    height: 250px;
+}
+
+.award-block .award-content {
+    clear: both;
+    text-align: left;
+}
+
+.award-block .award-content h4.title {
+    font-size: 16px;
+    margin: 0;
+}
+
+.award-block .award-content .sub-title {
+    display: block;
+    font-size: 14px;
+    color: #565A7A;
+    height: 40px;
+    line-height: 40px;
+}
+
+.award-block .award-content .year {
+    background-color: #fff;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+
+.award-block .award-content .year.gold {
+    background-color: #D3AF37;
+}
+
+.award-block .award-content .year.silver {
+    background-color: #C4C4C4;
+}
+
+.award-block .award-content .year.bronze {
+    background-color: #CE8946;
+}
+
+.award-block .seperate {
+    display: block;
+    width: 70%;
+    height: 2px;
+    border-radius: 30px;
+    background-color: #d1d1d1;
+    margin: 20px auto;
+}
+
+/* ----------------- */
+
+#pinContainer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 90px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+#pinSlide1 {
+    background-color: #fff;
+}
+
+#pinSlide2 {
+    background-color: #f3f3f3;
+}
+
+#pinSlide3 {
+    background-color: #fff;
+}
+
+#pinSlide4 {
+    background-color: #f3f3f3;
+}
+
+#pinSlide5 {
+    background-color: #fff;
+}
+
+#pinSlide6 {
+    background-color: #f3f3f3;
+}
+
+#pinSlide7 {
+    background-color: #fff;
+}
+
+#pinSlide8 {
+    background-color: #f3f3f3;
+}
+
+#pinSlide9 {
+    background-color: #fff;
+}
+
+#pinSlide10 {
+    background-color: #f3f3f3;
+}
+
+#pinSlide11 {
+    background-color: #fff;
+}
+
+#pinSlide12 {
+    background-color: #f3f3f3;
 }
