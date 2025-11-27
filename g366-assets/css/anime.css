@@ -1,0 +1,202 @@
+:root {
+    --base: 2.7778vw;
+    --font-size: 1.15vw;
+    --line-height: 2.05vw;
+    --font-size-small: 0.7vw;
+    --line-height-small: 0.7vw;
+    --font-size-big: 5.0vw;
+    --line-height-big: 5.0vw;
+    --font-size-ultrabig: 12.0vw;
+    --line-height-ultrabig: 12.0vw;
+    --font-size-claim: 7.0vw;
+    --line-height-claim: 7.0vw;
+    --font-size-h1: 4.0vw;
+    --line-height-h1: 4.4vw;
+    --font-size-nav: 3.5vw;
+    --line-height-nav: 3.9vw;
+    --font-size-h4: 1.5vw;
+    --line-height-h4: 2.5vw;
+    --font-size-claim-medium: 3.0vw;
+    --line-height-claim-medium: 3.5vw;
+    --z-index-0: 0;
+    --z-index-1: 1000;
+    --z-index-2: 2000;
+    --radius: 5vw;
+}
+
+.animated-home-section-1 {
+    position: relative;
+    height: calc(100vh - 92px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bg-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: grayscale(95%);
+}
+
+
+.animated-home-section-1 .main-title {
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    font-size: 60px;
+    text-transform: uppercase;
+    z-index: 55;
+}
+
+.animated-home-section-1 .main-sub-title {
+    position: absolute;
+    font-weight: 100;
+    font-size: 26px;
+    color: #fded3d;
+    display: block;
+    width: 30%;
+    height: 150px;
+    line-height: 38px;
+    top: 0;
+    bottom: 0;
+    right: 8%;
+    margin: auto;
+    z-index: 55;
+}
+
+.animated-home-section-1 .cd-words-wrapper {
+    clear: both;
+}
+
+.animated-home-section-1 .cd-words-wrapper b {
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #fded3d;
+    text-shadow: 3px 30px 0px #493f09;
+}
+
+.scrollindicator {
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    height: 166px;
+}
+
+.scrollindicator .label {
+    position: relative;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    writing-mode: vertical-rl;
+    white-space: pre;
+    color: #fff;
+}
+
+.scrollindicator .label:before {
+    content: "";
+    z-index: 500;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    transform: rotate(90deg);
+    opacity: 0
+}
+
+.scrollindicator .label .line {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1px;
+    height: 166px;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.scrollindicator .label .line .flicker {
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    width: 10px;
+    height: 100%;
+    background-color: #ffffff;
+    animation: flicker 1.5s infinite ease-out
+}
+
+@keyframes flicker {
+    0% {
+        transform: translate3d(0, -100%, 0)
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0)
+    }
+
+    100% {
+        transform: translate3d(0, 100%, 0)
+    }
+}
+
+.home-screen-video {
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9;
+}
+
+.home-screen-video .bannger-video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .animated-home-section-1 {
+        height: 100vh;
+        display: block;
+        padding-top: 120px;
+        overflow: hidden;
+    }
+
+    .scrollindicator {
+        display: none !important;
+    }
+
+    .animated-home-section-1 .main-title {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .animated-home-section-1 .main-sub-title {
+        font-size: 22px;
+        line-height: 24px;
+        width: 95%;
+        bottom: 0%;
+        right: initial;
+        top: initial;
+    }
+
+    .animated-home-section-1 .cd-words-wrapper b {
+        font-size: 16px;
+    }
+
+}

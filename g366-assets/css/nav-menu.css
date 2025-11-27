@@ -1,7 +1,8 @@
 header {
     transition: all 0.5s ease 0s;
     position: relative;
-    z-index: 99
+    z-index: 99999;
+    /* background-color: #000; */
 }
 
 .navbar-brand img {
@@ -1221,6 +1222,14 @@ header {
 
     .header-style3 .attr-nav>ul>li>a {
         color: #fff
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        background-color: #000;
+        position: fixed;
+        width: 100%;
     }
 }
 

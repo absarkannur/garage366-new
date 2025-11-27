@@ -26,10 +26,10 @@
         e(this).remove()
     }), r.on("scroll", function() {
         var t, o = r.scrollTop();
-        o < e(".navbar-default").outerHeight() + 200 ? e("header").removeClass("scrollHeader").addClass("fixedHeader") : (e("header").removeClass("fixedHeader").addClass("scrollHeader"), e(".fixed-header header").removeClass("scrollHeader").addClass("fixedHeader"))
+        o < e(".navbar-default").outerHeight() + 600 ? e("header").removeClass("scrollHeader").addClass("fixedHeader") : (e("header").removeClass("fixedHeader").addClass("scrollHeader"), e(".fixed-header header").removeClass("scrollHeader").addClass("fixedHeader"))
     }), e(window).scroll(function() {
         var t, r, o, a;
-        (t = document.documentElement.scrollTop) > 200 ? e(".scroll-bar").addClass("visible") : e(".scroll-bar").removeClass("visible"), r = document.documentElement.scrollHeight, o = document.documentElement.clientHeight, a = (t = document.documentElement.scrollTop) / (r - o - 200) * 100, e(".scroll-indicate").css("height", Math.min(a, 100) + "%")
+        (t = document.documentElement.scrollTop) > 600 ? e(".scroll-bar").addClass("visible") : e(".scroll-bar").removeClass("visible"), r = document.documentElement.scrollHeight, o = document.documentElement.clientHeight, a = (t = document.documentElement.scrollTop) / (r - o - 200) * 100, e(".scroll-indicate").css("height", Math.min(a, 100) + "%")
     }), new WOW({
         boxClass: "wow",
         animateClass: "animated",

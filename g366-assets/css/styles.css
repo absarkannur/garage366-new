@@ -81,12 +81,6 @@ a:active {
     text-decoration: none
 }
 
-body {
-    background-color: #000000;
-    color: #575a7b;
-    overflow-x: hidden;
-}
-
 .card {
     color: #575a7b
 }
@@ -4942,9 +4936,14 @@ a#cancel-comment-reply-link:focus {
         animation-name: marquee
     }
 
-    .service-style01 .service-items .service-inner .service-content .service-main-img {
+    /* .service-style01 .service-items .service-inner .service-content .service-main-img {
         background-color: #fff
+    } */
+
+    .about-scroll-anim-text {
+        visibility: hidden;
     }
+
 }
 
 .testimonial-style01 {
@@ -6096,7 +6095,8 @@ a#cancel-comment-reply-link:focus {
 }
 
 .wpcf7 .quform-submit-inner:before {
-    width: 50px;
+    /* width: 50px; */
+    width: 100%;
     height: 50px;
     background-color: #fded3d;
     border-radius: 50px;
@@ -6146,7 +6146,7 @@ a#cancel-comment-reply-link:focus {
 .wpcf7 .quform-submit-inner .wpcf7-submit {
     border: none;
     background: none;
-    color: #fff;
+    color: #000;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.5px;
