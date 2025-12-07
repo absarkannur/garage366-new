@@ -523,6 +523,7 @@ footer .footer-list .list.header {
 .tip__tap .filament-tiptap-grid-builder__column img {
     width: 100% !important;
     height: auto !important;
+    border-radius: 5px;
 }
 
 .tip__tap .filament-tiptap-grid-builder__column p {
