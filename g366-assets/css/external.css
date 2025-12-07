@@ -979,3 +979,9 @@ footer .footer-list .list.header {
 .why-not-form .wpcf7 .quform-submit-inner:before {
     z-index: -1;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

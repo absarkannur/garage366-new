@@ -20,21 +20,31 @@
     <link rel="stylesheet" href="./g366-assets/css/themify-icons.css" />
     <link rel="stylesheet" href="./g366-assets/css/styles.css" />
     <link rel="stylesheet" href="./g366-assets/css/external.css" />
+    <link rel="stylesheet" href="./g366-assets/css/anime.css?v=747s44s" />
 
     <script src="./g366-assets/js/jquery.min.js"></script>
     <script src="./g366-assets/js/jquery-migrate.min.js"></script>
 
+    <style>
+        .home-about-section {
+            padding-top: 200px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .home-about-section {
+                padding-top: 70px;
+            }
+        }
+    </style>
+
 </head>
 
-<body class="body-overflow header-style1">
+<body class="header-style1">
 
-    <div class="full-screen-video">
-        <span class="loader"></span>
-        <video class="bannger-video" poster playsinline muted autoplay loop>
-            <source src="./g366-assets/videos/video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <video class="bg-video" poster playsinline muted autoplay loop>
+        <source src="./g366-assets/videos/bg_video.DjrZY9uz.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
     <div class="main-wrapper">
         <div class="content">
@@ -95,6 +105,10 @@
                                             </li>
                                             <li
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2725 nav-item">
+                                                <a title="Pages" href="./history.html" class="nav-link">Our History</a>
+                                            </li>
+                                            <li
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2725 nav-item">
                                                 <a title="Pages" href="./awards.html" class="nav-link">awards</a>
                                             </li>
                                             <li
@@ -102,6 +116,12 @@
                                                 <span class="submenu-button"></span>
                                                 <a title="Pages" href="javascript:void(0)" class="nav-link">services</a>
                                                 <ul class="dropdown-menu sub-menu" role="menu" style="display: block;">
+                                                    <li itemscope="itemscope"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-service nav-item">
+                                                        <a title="Digital Advertising"
+                                                            href="./service/capabilities.html"
+                                                            class="dropdown-item">Capabilities</a>
+                                                    </li>
                                                     <li itemscope="itemscope"
                                                         class="menu-item menu-item-type-post_type menu-item-object-service nav-item">
                                                         <a title="Digital Advertising"
@@ -156,8 +176,8 @@
 
                                                 <!-- Button shown if header_button is set -->
                                                 <li class="d-none d-xl-inline-block">
-                                                    <a class="btn-style01 md text-white" href="./contact.html">
-                                                        <span class="btn-text text-white">Contact Us</span>
+                                                    <a class="btn-style01 md" href="./contact.html">
+                                                        <span class="btn-text">Contact Us</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -173,68 +193,36 @@
             </header>
             <!-- Header END -->
 
-            <div class="section-wrapper pb-0 mt-0">
-                <div class="banner-style04" data-id="d6963f5">
-                    <div class="elementor-element elementor-element-d7e7de8 elementor-align-left elementor-widget elementor-widget-wl-banner-v1"
-                        data-id="d7e7de8" data-element_type="widget" data-widget_type="wl-banner-v1.default">
-                        <div class="elementor-widget-container">
+            <div class="animated-home-section-1" id="pin_home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
 
-                            <div
-                                class="container-fluid d-flex flex-column position-relative z-index-9 px-lg-1-6 px-xl-2-5 px-xxl-2-9">
-                                <div class="row position-relative">
-                                    <div class="col-lg-6">
-                                        <div class="banner-left-content bg-primary position-relative">
-                                            <span
-                                                class="text-white bg-secondary rounded-pill text-uppercase fs-small d-inline-block mb-3 font-weight-700 px-3 py-1 position-relative z-index-1">digital
-                                                agency</span>
-                                            <div
-                                                class="cd-headline clip font-weight-400 d-block d-sm-inline-block mb-3 ms-sm-0 ms-sm-3">
-                                                <span class="cd-words-wrapper"
-                                                    style="width: 9.6189px; overflow: hidden;">
-                                                    <b class="is-visible">Communication</b>
-                                                    <b class="is-hidden">Creative Solution</b>
-                                                    <b class="is-hidden">Digital</b>
-                                                    <b class="is-hidden">Social</b>
-                                                </span>
-                                            </div>
-                                            <h1
-                                                class="display-10 font-weight-800 ls-minus-2px mb-lg-4 lh-1 position-relative z-index-1 text-secondary">
-                                                Elevate your brand with digital precision<span
-                                                    class="text-secondary">.</span></h1>
-                                            <p
-                                                class="display-29 font-weight-600 w-xxl-100 text-secondary mb-2-6 mb-lg-6 d-none d-sm-block">
-                                                We’re a full-service digital creative agency built at the intersection
-                                                of strategy, design, and technology.</p> <a href=""
-                                                class="btn-style01 secondary"><span class="btn-text text-white">LEARN
-                                                    MORE</span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="banner-video js_v_sc">
-                                            <video class="bannger-video" poster playsinline muted autoplay loop>
-                                                <source src="./g366-assets/videos/video.mp4" type="video/mp4">
-                                                Your browser does not support the video tag.
-                                            </video>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cd-headline clip animate-this wow fadeInLeft">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Communication</b>
+                                    <b class="is-hidden">Creative Solution</b>
+                                    <b class="is-hidden">Digital</b>
+                                    <b class="is-hidden">Social</b>
+                                </span>
                             </div>
-                            <div class="container">
-                                <div class="row justify-content-md-center py-6">
-                                    <div class="col-lg-6">
-                                        <div class="d-flex self-center">
-                                            <div class="flex-shrink-0 me-3">
-                                                <img decoding="async" src="./g366-assets/images/mnadg.png" alt=" ..."
-                                                    title=" ..." class="w-65px">
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h3 class="display-28 text-white opacity9  font-weight-700">Agency of
-                                                    the year 2017 award</h3>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
+                            <h1 class="main-title animate-this wow fadeInLeft" data-wow-delay="100ms">Elevate</h1>
+                            <h1 class="main-title animate-this wow fadeInLeft" data-wow-delay="200ms">your brand with
+                            </h1>
+                            <h1 class="main-title animate-this wow fadeInLeft" data-wow-delay="300ms">digital precision.
+                            </h1>
+
+                            <span class="main-sub-title animate-this wow fadeInRight" data-wow-delay="500ms">
+                                We’re a full-service digital creative agency built at the intersection of strategy,
+                                design, and technology.
+                            </span>
+
+                            <div class="home-screen-video wow fadeIn" id="home_video">
+                                <video class="bannger-video" poster playsinline muted autoplay loop>
+                                    <source src="./g366-assets/videos/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
 
                         </div>
@@ -320,7 +308,7 @@
                     data-id="807f983" data-element_type="widget"
                     data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <div class="display-custom-1 font-weight-700 text-center w-100 alt-font opacity1 skrollable skrollable-before"
+                        <div class="about-scroll-anim-text display-custom-1 font-weight-700 text-center w-100 alt-font opacity1 skrollable skrollable-before"
                             data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);"
                             data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);"
                             style="transform: scale(1, 1) translate3d(0px, 0px, 0px);">about</div>
@@ -381,7 +369,7 @@
                         </div>
 
 
-                        <div class="service-items wow fadeInRight active" data-wow-delay="400ms">
+                        <div class="service-items wow fadeInRight" data-wow-delay="400ms">
                             <div class="service-inner">
                                 <div class="service-img">
                                     <img decoding="async" src="./g366-assets/images/service-02.jpg" alt=" ..."
@@ -699,12 +687,12 @@
                             <div class="footer-form">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                        <h2 class="footer-heaer-text display-4 font-weight-800 text-uppercase mb-0 text-primary"
+                                        <h2 class="wow fadeInLeft footer-heaer-text display-4 font-weight-800 text-uppercase mb-0 text-primary"
                                             style="cursor: none;">We Provide Reliable Digital
                                             Solutions</h2>
                                     </div>
                                     <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                                        <form wire:submit="submit" class="wpcf7 wpcf7-form init">
+                                        <form wire:submit="submit" class="wow fadeInRight wpcf7 wpcf7-form init">
                                             <div class="quform dark">
                                                 <div class="quform-elements">
                                                     <div class="row">
@@ -858,47 +846,51 @@
         <div class="cursor-helper-inner"></div>
     </div>
 
+    <div class="scrollindicator">
+        <div class="label">
+            Scroll
+            <div class="line">
+                <div class="flicker"></div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script>
 
-    history.scrollRestoration = 'manual';
+    $(function () {
 
-    $("html, body").animate({ scrollTop: 0 });
+        $(document).ready(function () {
+            $('.anim-curtain').animate({ top: '-100%' }, 600)
+        });
 
-    setTimeout(function () {
-        $('body').removeClass('body-overflow');
-        restVideo();
-    }, 5000);
+        $(window).scroll(function () {
 
-    window.addEventListener('resize', function () {
-        $('body').removeClass('body-overflow');
-        restVideo();
+            var scrollTop = $(this).scrollTop();
+
+            if (scrollTop >= 400) {
+                $('.scrollindicator').hide();
+            } else {
+                $('.scrollindicator').show();
+            }
+
+        });
+
     });
 
-    function restVideo() {
-
-        var v_width = $('.js_v_sc').width();
-        var v_height = $('.js_v_sc').height();
-        var v_top = $('.js_v_sc').offset().top;
-        var v_left = $('.js_v_sc').offset().left;
-
-        $('.full-screen-video').css({ width: v_width, height: v_height, top: v_top, left: v_left });
-
-        setTimeout(function () {
-            $('.full-screen-video').hide();
-        }, 1000)
-
-    }
-
-
 </script>
+
+
+<script src="./g366-assets/js/TweenMax.min.js"></script>
+<script src="./g366-assets/js/jquery.scrollmagic.js"></script>
+<script src="./g366-assets/js/jquery.scrollmagic.debug.js"></script>
 
 <script src="./g366-assets/js/bootstrap.min.js"></script>
 <script src="./g366-assets/js/animated-headline.js"></script>
 <script src="./g366-assets/js/countdown.js"></script>
 <script src="./g366-assets/js/easy.responsive.tabs.js"></script>
-<script src="./g366-assets/js/gsap.js"></script>
+<!-- <script src="./g366-assets/js/gsap.js"></script> -->
 <script src="./g366-assets/js/jquery.magnific-popup.min.js"></script>
 <script src="./g366-assets/js/jquery.mousewheel.min.js"></script>
 <script src="./g366-assets/js/jquery.scrollbar.min.js"></script>
