@@ -1000,4 +1000,9 @@ footer .footer-list .list.header {
     .pinContainer_about .display-28 {
         font-size: 14px;
     }
+
+    .mob-about {
+        margin-top: 98px;
+    }
+
 }
