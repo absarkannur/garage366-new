@@ -1225,13 +1225,13 @@ header {
     }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     header {
         background-color: #000;
         position: fixed;
         width: 100%;
     }
-}
+} */
 
 @media screen and (max-width: 479px) {
     .navbar-nav {

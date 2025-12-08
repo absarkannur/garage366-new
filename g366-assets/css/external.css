@@ -603,6 +603,7 @@ footer .footer-list .list.header {
     .tip__tap p {
         font-size: 16px;
     }
+
 }
 
 
@@ -985,4 +986,18 @@ footer .footer-list .list.header {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #pinContainer_about .ab_panel {
+        padding-top: 70px;
+    }
+
+    .display-28 {
+        font-size: 13px;
+    }
+
+    .pinContainer_about .display-28 {
+        font-size: 14px;
+    }
 }

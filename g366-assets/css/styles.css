@@ -3552,7 +3552,8 @@ h2.resp-accordion.resp-tab-active {
 
 .tab-style01.resp-vtabs .resp-tab-content .team-img .team-icons a {
     position: relative;
-    font-size: 20px
+    font-size: 20px;
+    color: #fded3d;
 }
 
 .tab-style01.resp-vtabs .resp-tab-content .team-img .team-icons a i {
@@ -3614,6 +3615,11 @@ h2.resp-accordion.resp-tab-active {
         width: 360px;
         height: 360px
     }
+
+    .teams-section .display-28 {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
