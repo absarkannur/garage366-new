@@ -106,10 +106,21 @@ $(function(){
 
 	moveBackground();
 	
+
+	// Scroll Top View
+	$(document).scroll(function(){
+
+		var scroll = $(this).scrollTop();
+
+		if( scroll > 1500 ){
+			$('.scroll-to-top').show();
+		} else {
+			$('.scroll-to-top').hide();
+		}
+
+
+	});
 	
 
 });
   
-
-// Three JS
-

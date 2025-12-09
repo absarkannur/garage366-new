@@ -989,6 +989,18 @@ footer .footer-list .list.header {
 }
 
 @media only screen and (max-width: 768px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .inner-banner {
+        margin-top: 0px;
+    }
+
     #pinContainer_about .ab_panel {
         padding-top: 70px;
     }
@@ -1005,4 +1017,22 @@ footer .footer-list .list.header {
         margin-top: 98px;
     }
 
+}
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 30px;
+    background-color: #fded3d;
+    cursor: pointer;
+    text-align: center;
+    z-index: 99999;
+}
+
+.scroll-to-top svg {
+    color: black;
 }
