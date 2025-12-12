@@ -2,7 +2,7 @@ $(function(){
 
 	// // Client Animation
 
-    // var controller = new ScrollMagic();
+    var controller = new ScrollMagic();
 
     // var wipeAnimation = new TimelineMax()
 	// 		.fromTo("section.panel.turqoise", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone})
